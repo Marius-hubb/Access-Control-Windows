@@ -114,3 +114,4 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/UDUeNrD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+ <p align="left">This concludes the demonstration of implementing access control policies in Windows machine.
