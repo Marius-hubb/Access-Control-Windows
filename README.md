@@ -31,3 +31,29 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/XFQbd4H.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+ <p align="center">Creating a New Organizational Unit
+<br/>
+<img src="https://i.imgur.com/kmbUOzx.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <p align="center">Creating NetworkAdmin as a new organizational unit
+<br/>
+<img src="https://i.imgur.com/WUyVxmZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <p align="center">Tools--> Ceating a new user IT Head inside the new new organizational unit NetworkAdmin
+<br/>
+<img src="https://i.imgur.com/fvtwwDN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />  
+ <p align="center">Tools--> Specifying the name IT Head and a password
+<br/>
+<img src="https://i.imgur.com/WHIfgmO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j8lnuAL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <p align="center">Tools--> Ceating a new user IT Head inside the new new organizational unit NetworkAdmin
+<br/>
+<img src="https://i.imgur.com/fvtwwDN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />  
