@@ -8,22 +8,26 @@ This lab demonstrates the implementation of access control policies in Windows m
 
 <h2>Lab walk-through:</h2>
 
-<p align="center">
+<p align="center">Before implementing access control policies, we will first examine the properties of the current Administrator account. <br/> Start-->right-click Windows PowerShell-->More--> Run as administrator.
 <br/>
-<img src="https://i.imgur.com/UzkjeHl.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<p align="center"><img src="https://i.imgur.com/jHP3Z02.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<p align="center">Editing scalpel.conf
+<p align="center">Typing whoami /user to display the details regarding Security ID (SID) and other additional information of the current user.
 <br/>
-<img src="https://i.imgur.com/wZgDPwp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YkgTU8p.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-<p align="center"> Running Scalpel to extract files from the disk image and output the files to the folder FilesWindows
+<p align="center"> Displaying detailed user account information using: get-aduser -identity administrator -properties *
 <br/>
-<img src="https://i.imgur.com/W5aOF4x.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/afCAera.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <p align="center">Extracted files are shown inside FilesWindows  
+ <p align="center">Start-->Server Manager  
 <br/>
-<img src="https://i.imgur.com/zCmt4NN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7tnHM8w.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <p align="center">Tools-->Active Directory Users and Computers
+<br/>
+<img src="https://i.imgur.com/XFQbd4H.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
