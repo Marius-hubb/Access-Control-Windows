@@ -102,3 +102,14 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/Blv572f.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<p align="center">Generating a report of password policy settings:
+ <br/>gpresult /H C:\passwords-policy-settings.html
+<br/>
+<img src="https://i.imgur.com/1SMZSdt.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <p align="center">We can view the detailed report by opening the html file
+<br/>
+<img src="https://i.imgur.com/UDUeNrD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
