@@ -92,3 +92,13 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/nj72gQd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+ <p align="center">Click to edit the Default Domain Policy
+<br/>
+<img src="https://i.imgur.com/5Yhu6li.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<p align="center">Setting the Password Policy
+<br/>
+<img src="https://i.imgur.com/Blv572f.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
