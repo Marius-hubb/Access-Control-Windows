@@ -21,7 +21,8 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/afCAera.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <p align="center">Start-->Server Manager  
+ <p align="center">Creating a New Organizational Unit inside Server Manager
+  <br/> Start-->Server Manager  
 <br/>
 <img src="https://i.imgur.com/7tnHM8w.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
@@ -108,7 +109,7 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/1SMZSdt.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <p align="center">We can view the detailed report by opening the html file
+ <p align="center">Once we open the html file we can view the detailed report on the implemented account policies.
 <br/>
 <img src="https://i.imgur.com/UDUeNrD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
