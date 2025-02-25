@@ -59,13 +59,13 @@ This lab demonstrates the implementation of access control policies in Windows m
 <br />
 <br /> 
  <p align="center">Naming TechSupport as the new group within the NetworkAdmin Organizational Unit.
-  <br /> Right-click NetworkAdmin Organizational Unit-->New-->Group
 <br/>
-<img src="https://i.imgur.com/FFFyDzw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GkfKC27.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br /> 
 <p align="center">Adding the User IT Head to the TechSupport group.
 <br/>
 <img src="https://i.imgur.com/whE7vAD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FFFyDzw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Njs6l5a.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br /> 
@@ -86,7 +86,8 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/TUbMWxW.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <p align="center">We will modify the existing GPO to set password requirements. Windows Administrative Tools-->Group Policy Management.
+ <p align="center">We will modify the existing GPO to set password requirements.
+<br />Windows Administrative Tools-->Group Policy Management.
 <br/>
 <img src="https://i.imgur.com/nj72gQd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
