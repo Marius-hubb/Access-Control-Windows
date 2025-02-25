@@ -36,24 +36,58 @@ This lab demonstrates the implementation of access control policies in Windows m
 <img src="https://i.imgur.com/kmbUOzx.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <p align="center">Creating NetworkAdmin as a new organizational unit
+ <p align="center">Setting NetworkAdmin as a new organizational unit
 <br/>
 <img src="https://i.imgur.com/WUyVxmZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <p align="center">Tools--> Ceating a new user IT Head inside the new new organizational unit NetworkAdmin
+ <p align="center">Creating a new user IT Head inside the new organizational unit NetworkAdmin
 <br/>
 <img src="https://i.imgur.com/fvtwwDN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />  
- <p align="center">Tools--> Specifying the name IT Head and a password
+ <p align="center">Specifying the name IT Head and a password
 <br/>
 <img src="https://i.imgur.com/WHIfgmO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/j8lnuAL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <p align="center">Tools--> Ceating a new user IT Head inside the new new organizational unit NetworkAdmin
+ <p align="center">Creating a new group TechSupport within the NetworkAdmin Organizational Unit.
+  <br /> Right-click NetworkAdmin Organizational Unit-->New--> Group.
 <br/>
-<img src="https://i.imgur.com/fvtwwDN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/w7K0IOm.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<br />  
+<br /> 
+ <p align="center">Naming TechSupport as the new group within the NetworkAdmin Organizational Unit.
+  <br /> Right-click NetworkAdmin Organizational Unit-->New-->Group
+<br/>
+<img src="https://i.imgur.com/FFFyDzw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br /> 
+<p align="center">Adding the User IT Head to the TechSupport group.
+<br/>
+<img src="https://i.imgur.com/whE7vAD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Njs6l5a.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br /> 
+ <p align="center">Creating a new Computer01 inside the FinanceOU Organizational Unit.
+  <br/> Right-click FinanceOU Organizational Unit-->New-->Computer
+<br/>
+<img src="https://i.imgur.com/iCjMLVb.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br /> 
+ <p align="center">Creating a detailed report of all computer objects in the domain:<br/>
+  get-adcomputer -filter * | out-file C:\useraccounts.txt 
+<br/>
+<img src="https://i.imgur.com/QELOpZW.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br /> 
+ <p align="center">By opening useraccounts.txt We can view the newly created Computer01  
+<br/>
+<img src="https://i.imgur.com/TUbMWxW.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ <p align="center">We will modify the existing GPO to set password requirements. Windows Administrative Tools-->Group Policy Management.
+<br/>
+<img src="https://i.imgur.com/nj72gQd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
