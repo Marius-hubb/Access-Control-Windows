@@ -10,15 +10,15 @@ This lab demonstrates the implementation of access control policies in Windows m
 
 <p align="center">Before implementing access control policies, we will first examine the properties of the current Administrator account. <br/> Start-->right-click Windows PowerShell-->More--> Run as administrator.
 <br/>
-<p align="center"><img src="https://i.imgur.com/jHP3Z02.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<p align="center"><img src="https://i.imgur.com/jHP3Z02.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p align="center">Typing whoami /user to display the details regarding Security ID (SID) and other additional information of the current user.
 <br/>
-<img src="https://i.imgur.com/YkgTU8p.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YkgTU8p.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p align="center"> Displaying detailed user account information using: get-aduser -identity administrator -properties *
 <br/>
-<img src="https://i.imgur.com/afCAera.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/afCAera.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
  <p align="center">Creating a New Organizational Unit inside Server Manager
